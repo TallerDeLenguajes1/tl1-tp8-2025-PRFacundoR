@@ -24,7 +24,7 @@ void mostrarTareaPendiente(List<Tarea> tarea){
 }
 
 void MostrarTareas(List<Tarea> tarea){
- foreach (Tarea tareaP in tarea)
+foreach (Tarea tareaP in tarea)
         {
             
                 Console.WriteLine("Las tareas son :");
@@ -73,7 +73,7 @@ do
 }
 
 void pasajeDeTPaTR(List<Tarea> tareaP,List<Tarea> tareaR){
-     string salir;
+string salir;
 do
 {
 
@@ -90,12 +90,12 @@ do
 
         if (int.TryParse(idTarea,out int IdTarea) )
         {
-            foreach(Tarea tarea in tareaP){//busco tarea en tareas pendientes, recomendado trabajar con listas
+            for(int i=tareaP.Count-1; i>=0; i--){//otra forma de eliminar
 
-                if(tarea.TareaID==IdTarea){
+                if(tareaP[i].TareaID==IdTarea){
 
-                  tareaR.Add(tarea);
-                  tareaP.Remove(tarea);      
+                tareaR.Add(tareaP[i]);
+                tareaP.RemoveAt(i);      
 
 
                 }
