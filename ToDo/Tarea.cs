@@ -4,19 +4,17 @@ namespace ToDo
 
   public class Tarea
     {
-        private int tareaID;
-        private string? descripcion;
-        private int duracion;
+       
 
-        public int TareaID { get => tareaID; set => tareaID = value; }
-        public string? Descripcion { get => descripcion; set => descripcion = value; }
-        public int Duracion { get => duracion; set => duracion = value; }
+        public int TareaID { get ; set ; }
+        public string Descripcion { get ; set ; }
+        public int Duracion { get ; set ; }
 
-        public Tarea(int tareaID, string? descripcion, int duracion)
+        public Tarea(int tareaID, string descripcion, int duracion)
         {
             this.TareaID = tareaID;
             this.Descripcion = descripcion;
-            if (duracion>10 && duracion<100)
+            if (duracion>=10 && duracion<=100)
             {
                 this.Duracion = duracion;
             }else
