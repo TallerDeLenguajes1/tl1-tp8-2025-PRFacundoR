@@ -90,7 +90,7 @@ do
 
         if (int.TryParse(idTarea,out int IdTarea) )
         {
-            for(int i=tareaP.Count-1; i>=0; i--){//otra forma de eliminar
+            for(int i=tareaP.Count-1; i>=0; i--){//otra forma de eliminar, remove no dentro de un foreach
 
                 if(tareaP[i].TareaID==IdTarea){
 
