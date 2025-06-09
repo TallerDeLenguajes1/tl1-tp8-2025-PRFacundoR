@@ -13,3 +13,18 @@ C:\Users\Alumno\Documents\tl1-tp8-2025-PRFacundoR\ToDo\obj\Debug\net8.0\refint\T
 C:\Users\Alumno\Documents\tl1-tp8-2025-PRFacundoR\ToDo\obj\Debug\net8.0\ToDo.pdb
 C:\Users\Alumno\Documents\tl1-tp8-2025-PRFacundoR\ToDo\obj\Debug\net8.0\ToDo.genruntimeconfig.cache
 C:\Users\Alumno\Documents\tl1-tp8-2025-PRFacundoR\ToDo\obj\Debug\net8.0\ref\ToDo.dll
+C:\Users\facu\Downloads\facultad\taller 1\practica\Tp_8\tl1-tp8-2025-PRFacundoR\ToDo\bin\Debug\net8.0\ToDo.exe
+C:\Users\facu\Downloads\facultad\taller 1\practica\Tp_8\tl1-tp8-2025-PRFacundoR\ToDo\bin\Debug\net8.0\ToDo.deps.json
+C:\Users\facu\Downloads\facultad\taller 1\practica\Tp_8\tl1-tp8-2025-PRFacundoR\ToDo\bin\Debug\net8.0\ToDo.runtimeconfig.json
+C:\Users\facu\Downloads\facultad\taller 1\practica\Tp_8\tl1-tp8-2025-PRFacundoR\ToDo\bin\Debug\net8.0\ToDo.dll
+C:\Users\facu\Downloads\facultad\taller 1\practica\Tp_8\tl1-tp8-2025-PRFacundoR\ToDo\bin\Debug\net8.0\ToDo.pdb
+C:\Users\facu\Downloads\facultad\taller 1\practica\Tp_8\tl1-tp8-2025-PRFacundoR\ToDo\obj\Debug\net8.0\ToDo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\facu\Downloads\facultad\taller 1\practica\Tp_8\tl1-tp8-2025-PRFacundoR\ToDo\obj\Debug\net8.0\ToDo.AssemblyInfoInputs.cache
+C:\Users\facu\Downloads\facultad\taller 1\practica\Tp_8\tl1-tp8-2025-PRFacundoR\ToDo\obj\Debug\net8.0\ToDo.AssemblyInfo.cs
+C:\Users\facu\Downloads\facultad\taller 1\practica\Tp_8\tl1-tp8-2025-PRFacundoR\ToDo\obj\Debug\net8.0\ToDo.csproj.CoreCompileInputs.cache
+C:\Users\facu\Downloads\facultad\taller 1\practica\Tp_8\tl1-tp8-2025-PRFacundoR\ToDo\obj\Debug\net8.0\ToDo.sourcelink.json
+C:\Users\facu\Downloads\facultad\taller 1\practica\Tp_8\tl1-tp8-2025-PRFacundoR\ToDo\obj\Debug\net8.0\ToDo.dll
+C:\Users\facu\Downloads\facultad\taller 1\practica\Tp_8\tl1-tp8-2025-PRFacundoR\ToDo\obj\Debug\net8.0\refint\ToDo.dll
+C:\Users\facu\Downloads\facultad\taller 1\practica\Tp_8\tl1-tp8-2025-PRFacundoR\ToDo\obj\Debug\net8.0\ToDo.pdb
+C:\Users\facu\Downloads\facultad\taller 1\practica\Tp_8\tl1-tp8-2025-PRFacundoR\ToDo\obj\Debug\net8.0\ToDo.genruntimeconfig.cache
+C:\Users\facu\Downloads\facultad\taller 1\practica\Tp_8\tl1-tp8-2025-PRFacundoR\ToDo\obj\Debug\net8.0\ref\ToDo.dll

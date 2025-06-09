@@ -12,11 +12,15 @@ void mostrarTareaPendiente(List<Tarea> tarea){
     string descrip=Console.ReadLine();
         foreach (Tarea tareaP in tarea)
         {
-            if(tareaP.Descripcion.IndexOf(descrip)!=-1){
-                Console.WriteLine("la/s tarea/s que cumple con esa descripcion es/son");
-                Console.WriteLine($"Id:{tareaP.TareaID}");
-                Console.WriteLine($"Descripcion:{tareaP.Descripcion}");
-                Console.WriteLine($"Duracion:{tareaP.Duracion}");
+        if (tareaP.Descripcion.IndexOf(descrip) != -1)
+        {
+
+            Console.WriteLine("la/s tarea/s que cumple con esa descripcion es/son");
+            Console.WriteLine($"Id:{tareaP.TareaID}");
+            Console.WriteLine($"Descripcion:{tareaP.Descripcion}");
+            Console.WriteLine($"Duracion:{tareaP.Duracion}");
+            Console.WriteLine("\n");
+
             }
 
         }
@@ -31,7 +35,7 @@ foreach (Tarea tareaP in tarea)
                 Console.WriteLine($"Id:{tareaP.TareaID}");
                 Console.WriteLine($"Descripcion:{tareaP.Descripcion}");
                 Console.WriteLine($"Duracion:{tareaP.Duracion}");
-            
+                Console.WriteLine("\n");
 
         }
 
@@ -39,14 +43,7 @@ foreach (Tarea tareaP in tarea)
 
 void agregarTareas(List<Tarea> tarea){
 
-    string salir;
-do
-{
-    Console.WriteLine("Si quiere dejar de agregar tareas escriba  'salir', si no escriba 'si' ");
-    salir=Console.ReadLine();
-
-    if (salir!="salir")
-    {
+ 
         Console.WriteLine("ingrese la descripcion de la tarea de la tarea");
         string descripcion=Console.ReadLine();
 
@@ -68,22 +65,11 @@ do
 
     }
 
-} while (salir!="salir" && salir=="si");
-    
-}
+
 
 void pasajeDeTPaTR(List<Tarea> tareaP,List<Tarea> tareaR){
-string salir;
-do
-{
 
-    Console.WriteLine("Si quiere pasar una tarea pendiente a realizada, escriba 'si', sino, escriba 'salir'");
-    salir=Console.ReadLine();
-    
-        
 
-    if (salir!="salir")
-    {
 
         Console.WriteLine("Ingrese el id de la tarea que quieres pasar");
         string idTarea=Console.ReadLine();
@@ -106,11 +92,7 @@ do
 
     }
     
-} while (salir!="salir" && salir=="si");
 
-
-
-}
 
 
 
@@ -118,38 +100,46 @@ List<Tarea> tareasPendientes=new List<Tarea>();
 List<Tarea> tareasRealizadas=new List<Tarea>();
 
 
-Console.WriteLine("oprima 1 si quiere agregar una tarea, 2 si quiere pasar una tarea pendiente a realizada, ");
-Console.WriteLine("3 si busca una tarea pendiente por id, 4 si quiere ver tareas pendientes y 5 si quiere ver las realizadas");
-Console.WriteLine("si desea salir oprima 9");
 
-string menu=Console.ReadLine();
+
 int menuT;
 do
 {
+    Console.WriteLine("\nMenú:");
+    Console.WriteLine("1. Agregar tarea");
+    Console.WriteLine("2. Pasar tarea a realizadas");
+    Console.WriteLine("3. Buscar tarea pendiente por descripción");
+    Console.WriteLine("4. Ver tareas pendientes");
+    Console.WriteLine("5. Ver tareas realizadas");
+    Console.WriteLine("9. Salir");
+    string menu=Console.ReadLine();
+    
+
     if (int.TryParse(menu, out menuT))
     {
-        
+
         switch (menuT)
         {
             case 1:
-            agregarTareas(tareasPendientes);
+                agregarTareas(tareasPendientes);
                 break;
             case 2:
-            pasajeDeTPaTR(tareasPendientes,tareasRealizadas);
+                pasajeDeTPaTR(tareasPendientes, tareasRealizadas);
                 break;
             case 3:
-            mostrarTareaPendiente(tareasPendientes);
+                mostrarTareaPendiente(tareasPendientes);
                 break;
             case 4:
-            MostrarTareas(tareasPendientes);
+                MostrarTareas(tareasPendientes);
                 break;
             case 5:
-            MostrarTareas(tareasRealizadas);
-                break;    
+                MostrarTareas(tareasRealizadas);
+                break;
         }
 
 
-    }else
+    }
+    else
     {
         Console.WriteLine("ingrse una letra, no un numero");
     }
